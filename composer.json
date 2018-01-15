@@ -1,0 +1,20 @@
+{
+    "name": "ssm/carbon-field-code",
+    "description": "Carbon Fields extension, that adds a Code field type.",
+    "keywords": ["wordpress", "carbon-field", "carbon-field-code"],
+    "homepage": "https://github.com/secretstache/carbon-field-code",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [],
+    "require": {
+        "htmlburger/carbon-fields": "^2.0"
+    },
+    "autoload": {
+        "files": [
+            "field.php"
+        ],
+        "psr-4": {
+            "Carbon_Field_code\\": "core/"
+        }
+    }
+}
